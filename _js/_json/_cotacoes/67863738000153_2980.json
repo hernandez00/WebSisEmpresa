@@ -1,0 +1,108 @@
+{
+  "idCotacao": "2980",
+  "situacao": "Em andamento",
+  "disponivelAte": "29/05/2021",
+  "itb": {
+    "cppj": "",
+    "razaoSocial": "",
+    "inscrEstadual": "",
+    "comprador": "Leonardo Hernandez",
+    "email": "hernandeez00@gmail.com",
+    "telefone": "(18) 99629-9733",
+    "endereco": {
+      "endereco": "",
+      "numero": "",
+      "bairro": "",
+      "cidadeEstado": "",
+      "cep": ""
+    }
+  },
+  "fornecedor": {
+    "cnpjCpf": "67.863.738/0001-53",
+    "razaoSocial": "BIRISOLDAS COMÉRCIO E ASSISTÊNCIA TÉCNICA LTDA",
+    "vendedor": "",
+    "emailVendedor": "",
+    "foneVendedor": ""
+  },
+  "qtdeItens": "5",
+  "tipoEntrega": "CIF",
+  "formaPagamento": "",
+  "obsGeral": "",
+  "itens": [
+    {
+      "nItem": "1",
+      "idMaterial": "2379",
+      "codigoMaterial": "10.003.0065",
+      "nomeDescricao": "BICO DE CONTATO TOCHA MIG - ",
+      "unidade": "UN",
+      "especTecnica": "",
+      "qtde": "300",
+      "precoUnitario": "0,0000",
+      "pICMS": "0,00",
+      "pIPI": "0,00",
+      "valorItem": "0,00",
+      "prazoEntrega": "",
+      "obs": ""
+    },
+    {
+      "nItem": "2",
+      "idMaterial": "2380",
+      "codigoMaterial": "10.003.0066",
+      "nomeDescricao": "PORTA BICO TOCHA MIG - ",
+      "unidade": "UN",
+      "especTecnica": "",
+      "qtde": "300",
+      "precoUnitario": "0,0000",
+      "pICMS": "0,00",
+      "pIPI": "0,00",
+      "valorItem": "0,00",
+      "prazoEntrega": "",
+      "obs": ""
+    },
+    {
+      "nItem": "3",
+      "idMaterial": "2381",
+      "codigoMaterial": "10.003.0067",
+      "nomeDescricao": "BOCAL PARA TOCHA MIG - ",
+      "unidade": "UN",
+      "especTecnica": "",
+      "qtde": "300",
+      "precoUnitario": "0,0000",
+      "pICMS": "0,00",
+      "pIPI": "0,00",
+      "valorItem": "0,00",
+      "prazoEntrega": "",
+      "obs": ""
+    },
+    {
+      "nItem": "4",
+      "idMaterial": "2886",
+      "codigoMaterial": "10.003.0292",
+      "nomeDescricao": "PINÇA - 5/32",
+      "unidade": "UN",
+      "especTecnica": "",
+      "qtde": "100",
+      "precoUnitario": "0,0000",
+      "pICMS": "0,00",
+      "pIPI": "0,00",
+      "valorItem": "0,00",
+      "prazoEntrega": "",
+      "obs": ""
+    },
+    {
+      "nItem": "5",
+      "idMaterial": "8555",
+      "codigoMaterial": "10.003.1443",
+      "nomeDescricao": "TUNGSTENIO  - 5/32",
+      "unidade": "UN",
+      "especTecnica": "",
+      "qtde": "50",
+      "precoUnitario": "0,0000",
+      "pICMS": "0,00",
+      "pIPI": "0,00",
+      "valorItem": "0,00",
+      "prazoEntrega": "",
+      "obs": ""
+    }
+  ]
+}
