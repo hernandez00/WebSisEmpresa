@@ -1,4 +1,4 @@
-# WebSisItb
+# WebSisEmpresa
 Repositório do sistema web  - EMPRESA
 
 Mini sistema web para cotações. 
