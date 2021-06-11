@@ -30,7 +30,7 @@ p {
  	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#logo-itb {
+#logo-empresa {
 	position: relative;
 	
 	align-self: center;
@@ -38,11 +38,11 @@ p {
 	left: 25%;
 }
 
-#itb {
+#empresa {
 	border-collapse: separate;
 }
 
-.menu-info-itb {
+.menu-info-empresa {
 	height: auto;
 	position: relative;
 	align-self: center;
@@ -136,16 +136,16 @@ input[id="prazo-pagamento"] {
 	width: 30px;
 }
 
-/* Tabela de dados itb --------------------------------*/
-#itb {
+/* Tabela de dados empresa --------------------------------*/
+#empresa {
 	color: white;
 }
 
-#itb th {
+#empresa th {
 	text-align: right;
 }
 
-#itb td {
+#empresa td {
 	text-align: left;
 	text-indent: 10px;
 }
@@ -383,11 +383,11 @@ textarea {
 	text-align: center;
 }
 
-#footer-info-itb {
+#footer-info-empresa {
 	left: 20%;
 }
 
-p#nome-itb {
+p#nome-empresa {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }

@@ -1,7 +1,7 @@
 <?php header("Content-type: text/html; charset=utf-8"); ?>
 <?php
 	$hashcode = $_POST['hashcode'];
-	header('Location: /websisitb/?idreq=' . $hashcode);
+	header('Location: /websisempresa/?idreq=' . $hashcode);
 ?>
 
 <?php

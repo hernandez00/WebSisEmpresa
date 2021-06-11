@@ -37,7 +37,7 @@ $arquivo = "";
 //Verifica se existe um id de requisição e se ele está correto
 if (isset($_GET["idreq"])) {
 	$hashcode = $_GET["idreq"];
-//	$path = "../../itb.ind.br/sisitb/";
+//	$path = "../../empresa.ind.br/sisitb/";
 	$path = "_js/_json/_cotacoes/";
 	$diretorio = dir($path);
 
@@ -108,21 +108,21 @@ if ($encontrou == false) {
 	";
 } else {
 	$cotacao  		  = (property_exists($json, "idCotacao")) 					? (!$json->idCotacao) 					? "" : $json->idCotacao : "";
-	//Dados ITB
-	$cnpj             = (property_exists($json->itb, "cnpj"))                   ? (!$json->itb->cnpj)                   ? "" : $json->itb->cnpj : "";
-	$razaoSocial      = (property_exists($json->itb, "razaoSocial"))            ? (!$json->itb->razaoSocial)            ? "" : $json->itb->razaoSocial : "";
-	$inscrEstadual    = (property_exists($json->itb, "inscrEstadual"))          ? (!$json->itb->inscrEstadual)          ? "" : $json->itb->inscrEstadual : "";
-	//Endereço ITB
-	$endereco         = (property_exists($json->itb->endereco, "endereco"))     ? (!$json->itb->endereco->endereco)     ? "" : $json->itb->endereco->endereco : "";
-	$numero           = (property_exists($json->itb->endereco, "numero"))       ? (!$json->itb->endereco->numero)       ? "" : $json->itb->endereco->numero : "";
-	$bairro           = (property_exists($json->itb->endereco, "bairro"))       ? (!$json->itb->endereco->bairro)       ? "" : $json->itb->endereco->bairro : "";
-	$cidadeEstado     = (property_exists($json->itb->endereco, "cidadeEstado")) ? (!$json->itb->endereco->cidadeEstado) ? "" : $json->itb->endereco->cidadeEstado : "";
-	$cep              = (property_exists($json->itb->endereco, "cep"))          ? (!$json->itb->endereco->cep)          ? "" : $json->itb->endereco->cep : "";	
+	//Dados EMPRESA
+	$cnpj             = (property_exists($json->empresa, "cnpj"))                   ? (!$json->empresa->cnpj)                   ? "" : $json->empresa->cnpj : "";
+	$razaoSocial      = (property_exists($json->empresa, "razaoSocial"))            ? (!$json->empresa->razaoSocial)            ? "" : $json->empresa->razaoSocial : "";
+	$inscrEstadual    = (property_exists($json->empresa, "inscrEstadual"))          ? (!$json->empresa->inscrEstadual)          ? "" : $json->empresa->inscrEstadual : "";
+	//Endereço EMPRESA
+	$endereco         = (property_exists($json->empresa->endereco, "endereco"))     ? (!$json->empresa->endereco->endereco)     ? "" : $json->empresa->endereco->endereco : "";
+	$numero           = (property_exists($json->empresa->endereco, "numero"))       ? (!$json->empresa->endereco->numero)       ? "" : $json->empresa->endereco->numero : "";
+	$bairro           = (property_exists($json->empresa->endereco, "bairro"))       ? (!$json->empresa->endereco->bairro)       ? "" : $json->empresa->endereco->bairro : "";
+	$cidadeEstado     = (property_exists($json->empresa->endereco, "cidadeEstado")) ? (!$json->empresa->endereco->cidadeEstado) ? "" : $json->empresa->endereco->cidadeEstado : "";
+	$cep              = (property_exists($json->empresa->endereco, "cep"))          ? (!$json->empresa->endereco->cep)          ? "" : $json->empresa->endereco->cep : "";	
 	
 	//Credenciais comprador
-	$comprador        = (property_exists($json->itb, "comprador"))             ? (!$json->itb->comprador)              ? "" : $json->itb->comprador : "";
-	$emailItb        = (property_exists($json->itb, "email"))                  ? (!$json->itb->email)                  ? "" : $json->itb->email : "";
-	$telefoneItb     = (property_exists($json->itb, "telefone"))               ? (!$json->itb->telefone)               ? "" : $json->itb->telefone : "";
+	$comprador        = (property_exists($json->empresa, "comprador"))             ? (!$json->empresa->comprador)              ? "" : $json->empresa->comprador : "";
+	$emailItb        = (property_exists($json->empresa, "email"))                  ? (!$json->empresa->email)                  ? "" : $json->empresa->email : "";
+	$telefoneItb     = (property_exists($json->empresa, "telefone"))               ? (!$json->empresa->telefone)               ? "" : $json->empresa->telefone : "";
 	//Fornecedor
 	$cnpjCpf_forn     = (property_exists($json->fornecedor, "cnpjCpf"))        ? (!$json->fornecedor->cnpjCpf)         ? "" : $json->fornecedor->cnpjCpf : "";
 	$razaoSocial_forn = (property_exists($json->fornecedor, "razaoSocial"))    ? (!$json->fornecedor->razaoSocial)     ? "" : $json->fornecedor->razaoSocial : "";
@@ -135,7 +135,7 @@ if ($encontrou == false) {
 	$formaPagamento  = (property_exists($json, "formaPagamento"))              ? (!$json->formaPagamento)         ? "" : $json->formaPagamento : "";
 
 
-//Cabeçalho do container - Dados do funcionário-itb responsável empresa de destino
+//Cabeçalho do container - Dados do funcionário-empresa responsável empresa de destino
 	echo "
 		<div class='sub-container'>
 
