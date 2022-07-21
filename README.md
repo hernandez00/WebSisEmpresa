@@ -1,12 +1,14 @@
 # WebSisEmpresa
 Repositório do sistema web  - EMPRESA
 
-Mini sistema web para cotações. 
+Sistema Web para cotações. 
+
+![image](https://user-images.githubusercontent.com/54067414/180265460-383dde60-0a0a-453b-8666-2df8ca877f42.png)
 
 O que foi utilizado em seu desenvolvimento?
 - PHP;
 - HTML e CSS para criação da página e estilização;
-- JavaScript(jQuery).
+- JavaScript (jQuery).
 
 Como funciona?
  - Através do sistema desktop da empresa, é gerado um arquivo jSon estruturado com informações da empresa e os produtos à serem cotados com suas medidas e quantidade, que é enviado via FPT para o servidor onde o sistema web está hospedado;
